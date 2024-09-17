@@ -2,7 +2,7 @@
 
 - Disciplina: Fundamentos de Sistemas Web
 - Curso: Análise e Desenvolvimento de Sistemas
-PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL
+- PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL
 -------------------------------------------------------
 
 O projeto inicia no index.html, que é a página inicial (home) do site.
