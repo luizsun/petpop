@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PetPOP! | Agendamento</title>
+        <link rel="stylesheet" href="style-login.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="../img/logo.png" alt="Logo do PetPOP">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./servicos.html">Serviços</a></li>
+                    <li><a href="./loja.html">Loja</a></li>
+                    <li><a href="../index.html#Sobre">Sobre</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Agendamento</h1>
+            <form method="post" action="agendamento.aspx">
+                <label for="nomepet">Selecione o pet:</label>
+                <select id="nomepet" name="nomepet" required>
+                    <option value="pet1">Bob</option>
+                    <option value="pet2">Nina</option>
+                </select>
+                <br>
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+                <br>
+                <label for="horario" id="horario" name="horario">Horário:</label>
+                <input type="time" id="horario" name="horario">
+                <br>
+                <input type="submit" value="Agendar">
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; PetPOP! | Todos os direitos reservados.</p>
+            <p>Contato: contato@petpop.com.br | Telefone: (11)4656-0000 </p>
+            <p>
+                <a href="https://www.facebook.com/petpop" target="_blank"> Facebook </a> | 
+                <a href="https://www.instagram.com/petpop.br" target="_blank"> Instagram </a> | 
+                <a href="https://www.wa.me/46560000" target="_blank"> Whatsapp</a>
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0%;
+    background-color: #ffffff;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+header {
+    margin: 0;
+    padding-top: 20px;
+    background-color: #59B09D;
+    text-align: center;
+}
+
+header img {
+    height: 15vh;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #fffed0;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 50px;
+}
+
+nav ul li a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333(0, 0, 0);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #59B09D;
+}
+
+nav ul li a:active {
+    color: #E6797A;
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+}
+
+h1 {
+    text-align: center;
+    color: #59B09D;
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #616161;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="time"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #59B09D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #E6797A;
+}
+
+footer {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    padding: 5px;
+    background-color: #333;
+    text-align: center;
+    color: #eee;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
