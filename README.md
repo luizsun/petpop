@@ -1,6 +1,7 @@
 # Projeto PetPOP!
-Disciplina: Fundamentos de Sistemas Web
-Curso: Análise e Desenvolvimento de Sistemas
+
+- Disciplina: Fundamentos de Sistemas Web
+- Curso: Análise e Desenvolvimento de Sistemas
 PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL
 -------------------------------------------------------
 
