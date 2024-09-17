@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Montserrat';
+}
+
+header {
+    margin: 0;
+    padding-top: 20px;
+    background-color: #59B09D;
+    text-align: center;
+}
+
+header img {
+    height: 15vh;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #fffed0;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 50px;
+}
+
+nav ul li a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333(0, 0, 0);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #59B09D;
+}
+
+nav ul li a:active {
+    color: #E6797A;
+    text-decoration: underline;
+}
+
+#productCarousel {
+    background-color: #ffb7b7;
+}
+
+.product img {
+    height: 50vh;
+    object-fit: cover;
+}
+.product {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin: 10px 0px 100px 0px;
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+#funcoes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#funcoes a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+#funcoes a:hover {
+    transform: scale(1.1);
+}
+
+#funcoes img {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+#Sobre {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#Sobre h2 {
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#Sobre p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#Sobre img {
+    text-align: center;
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#Sobre h3 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.profissionais {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+#Sobre figure img {
+    width: 150px;
+    height: 150px;
+}
+
+.cadpet {
+    margin: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: larger;
+}
+
+footer {
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+    color: #eee;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
